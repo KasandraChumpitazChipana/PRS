@@ -2,7 +2,7 @@ import axios from "axios";
 import { User } from "../types/User";
 
 // URL base de la API
-const BASE_URL = "https://8086-vallegrande-vgmseducati-7cufk8i8n7b.ws-us120.gitpod.io";
+const BASE_URL = "https://yeasty-fedora-kasandrachumpitazchipana-f6aec34b.koyeb.app";
 const API_URL = `${BASE_URL}/api/users`;
 
 // Configuración global de axios
