@@ -1,0 +1,166 @@
+.custom-card {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.custom-card .ant-card-head {
+  border-bottom: 1px solid #f0f0f0;
+  padding: 16px 24px;
+}
+
+.ant-descriptions-item-label {
+  font-weight: 500;
+  color: #666;
+}
+
+.ant-descriptions-item-content {
+  color: #333;
+  font-size: 15px;
+}
+
+.ant-tag {
+  padding: 4px 12px;
+  font-size: 14px;
+}
+
+.page-header {
+  margin-bottom: 24px;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.info-item {
+  padding: 8px 0;
+}
+
+.info-item p {
+  margin-bottom: 16px;
+  color: #333;
+  font-size: 14px;
+}
+
+.info-icon {
+  color: #1890ff;
+  margin-right: 8px;
+}
+
+strong {
+  color: #666;
+  margin-right: 8px;
+}
+
+.profile-header {
+  padding: 20px 0;
+}
+
+.back-button {
+  margin-bottom: 20px;
+}
+
+.profile-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.profile-banner {
+  background: linear-gradient(135deg, #1890ff 0%, #096dd9 100%);
+  border-radius: 12px;
+  padding: 40px;
+  margin-bottom: 24px;
+  color: white;
+}
+
+.profile-avatar-container {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.profile-avatar {
+  background: white;
+  border: 4px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile-main-info {
+  flex: 1;
+}
+
+.profile-main-info h2 {
+  color: white;
+  margin: 0 0 8px 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.status-tag {
+  font-size: 14px;
+  padding: 4px 12px;
+  margin-bottom: 16px;
+}
+
+.edit-button {
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.edit-button:hover {
+  background: rgba(255, 255, 255, 0.3) !important;
+  border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.profile-content {
+  margin-top: 24px;
+}
+
+.profile-card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.card-icon {
+  color: #1890ff;
+  font-size: 20px;
+}
+
+.info-grid {
+  display: grid;
+  gap: 24px;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.info-icon {
+  color: #1890ff;
+  font-size: 18px;
+  margin-top: 4px;
+}
+
+.info-item label {
+  color: #8c8c8c;
+  font-size: 13px;
+  margin-bottom: 4px;
+  display: block;
+}
+
+.info-item p {
+  color: #262626;
+  margin: 0;
+  font-size: 15px;
+} 
