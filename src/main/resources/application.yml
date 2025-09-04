@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: vg-ms-user
+  data:
+    mongodb:
+      uri: mongodb+srv://huamantirado2006:1Cl61RtNEUNI2Pz0@cluster0.ahl0qgf.mongodb.net/PRS_proyect?retryWrites=true&w=majority&appName=Cluster0
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: kasandra.chumpitaz@vallegrande.edu.pe
+    password: wfpr ijup swkd nabj
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
+
+keycloak:
+  server-url: "https://auth-school.matichain.dev"
+  realm-name: "auth-school"
+  realm-master: "master"
+  admin-cli: "admin-cli"
+  user-console: "admin"
+  password-console: "adminPassword123"
+  client-secret: "WUsgJBE08rdylPM1zIYvdEZQoPJBfrL1"
+server:
+  port: 8100
