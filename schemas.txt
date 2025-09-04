@@ -1,1 +1,0 @@
---> Tabla users : groupd_id , first_name , last_name,document_type,document_number,email,password,user_image,role,status
